@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Awake';
+    src: url(/fonts/FreshLychee.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+#splash{
+    font-size: 50px;
+    color: black;
+    font-family: 'Awake';
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at bottom, red 0%, orange, yellow,lime,lightblue,indigo,violet 100%);
+      overflow: hidden;
+  }
+ 
