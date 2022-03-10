@@ -1,7 +1,8 @@
-
+/*fonts for website
+ */
 @font-face {
     font-family: 'Awake';
-    src: url(/fonts/FreshLychee.ttf);
+    src: url(/fonts/Fresh\ Lychee.ttf);
     font-style: normal;
     font-weight: 100;
 }
@@ -10,52 +11,41 @@ body {
     min-width: 250px;
   }
   
-  /* Include the padding and border in an element's total width and height */
   * {
     box-sizing: border-box;
   }
-  
-  /* Remove margins and padding from the list */
   ul {
     margin: 0;
     padding: 0;
   }
-  
-  /* Style the list items */
   ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
     background: #eee;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.2s;
-    
-    /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
   }
-  
-  /* Set all odd list items to a different color (zebra-stripes) */
+  /* different color to do list*/
   ul li:nth-child(odd) {
     background: #f9f9f9;
   }
-  
   /* Darker background-color on hover */
   ul li:hover {
     background: #ddd;
   }
   
-  /* When clicked on, add a background color and strike out text */
+  /*add a background color on to do list to show difference in text */
   ul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
-  
-  /* Add a "checked" mark when clicked on */
   ul li.checked::before {
     content: '';
     position: absolute;
@@ -84,10 +74,11 @@ body {
   
   /* Style the header */
   .header {
-    background-color: #f44336;
-    padding: 30px 40px;
-    color: white;
+    background-image: url('/image/kids2.jpg');
+    padding: 60px 70px;
+    color: black;
     text-align: center;
+    font-family: 'Awake';
   }
   
   /* Clear floats after the header */
@@ -105,7 +96,7 @@ body {
     width: 75%;
     padding: 10px;
     float: left;
-    font-size: 16px;
+    font-size: 30px;
   }
   
   /* Style the "Add" button */
@@ -116,7 +107,7 @@ body {
     color: #555;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0;
@@ -164,7 +155,7 @@ body {
     margin: 0;
   }
   body {
- background-color: white;
+ background-color: lightcyan;
   }
  @keyframes fadeIn{
      to{
